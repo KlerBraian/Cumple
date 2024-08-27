@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    background-color: #D741A7;
+    padding: 2rem;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+ 
+.titulo {
+    text-align: center;
+}
+
+
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carrusel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .carrusel button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* GAME */
+
+ .game {
+    padding: 2rem;
+ }
+
+
+  /* FOOTER */
+
+
+  .footer {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    margin-bottom: 0;
+    background: #D741A7;
+  }
+  
+  .footer-p {
+    font-family: "Kolker Brush", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .footer-ul {
+    display: flex;
+    list-style-type: none;
+   
+  }
+  
+  .footer-redes {
+    color: #fff;
+    margin-inline: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .footer-redes a{
+    color: #fff;
+  }
+
