@@ -79,3 +79,9 @@
     color: #fff;
   }
 
+
+
+  .image {
+    height: 800px !important;
+    object-fit: contain;
+  }

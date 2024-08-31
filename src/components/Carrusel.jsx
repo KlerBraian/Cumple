@@ -1,37 +1,33 @@
-import React, { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
-const Carrusel = () => {
-  // Arreglo de imágenes
-  const images = [
-    'https://via.placeholder.com/800x300?text=Foto+1',
-    'https://via.placeholder.com/800x300?text=Foto+2',
-    'https://via.placeholder.com/800x300?text=Foto+3',
-  ];
-
-  // Estado para la imagen actual
-  const [currentImage, setCurrentImage] = useState(0);
-
-  // Función para ir a la siguiente imagen
-  const nextImage = () => {
-    setCurrentImage((prevImage) =>
-      prevImage === images.length - 1 ? 0 : prevImage + 1
-    );
-  };
-
-  // Función para ir a la imagen anterior
-  const prevImage = () => {
-    setCurrentImage((prevImage) =>
-      prevImage === 0 ? images.length - 1 : prevImage - 1
-    );
-  };
-
+function Carrusel() {
   return (
-    <div className="carrusel">
-      <button onClick={prevImage}>Anterior</button>
-      <img src={images[currentImage]} alt={`Imagen ${currentImage + 1}`} />
-      <button onClick={nextImage}>Siguiente</button>
-    </div>
+    <Carousel>
+    <Carousel.Item>
+    <img className='d-block w-100 image' src="./public/images/img1.jpeg" alt="" />
+      <Carousel.Caption>
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+    <img className='d-block w-100 image' src="./public/images/img2.jpeg"  alt="" />
+      <Carousel.Caption>
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img className='d-block w-100 image' src="./public/images/img1.jpeg"  alt="" />
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
   );
-};
+}
 
 export default Carrusel;
