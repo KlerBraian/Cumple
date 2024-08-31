@@ -2,9 +2,9 @@ import React from 'react'
 
 const Poema = () => {
   return (
-    <div>
-    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, eveniet reprehenderit, delectus officia asperiores doloribus veniam laudantium maxime ea aut eum commodi pariatur excepturi saepe accusamus autem dolorem eaque quis?
+    <div className='poema'>
+      <h2 className='titulo-poema'>Poema</h2>
+        <p className='poema-content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, eveniet reprehenderit, delectus officia asperiores doloribus veniam laudantium maxime ea aut eum commodi pariatur excepturi saepe accusamus autem dolorem eaque quis?
         Temporibus ab tempore minus laudantium sapiente. Iusto harum repellendus iure veniam, amet modi inventore asperiores et labore. Ipsa voluptatibus commodi exercitationem? Adipisci commodi ratione error eligendi alias? A, sint sed?
         Placeat cum quas dolore adipisci animi? Blanditiis modi enim totam placeat sapiente! Ut architecto harum necessitatibus quae esse reprehenderit reiciendis eligendi unde, omnis optio, doloribus sit corrupti officia dolorem odio.
         Necessitatibus tempore perferendis sapiente neque similique facilis voluptate odio voluptatem recusandae iste ipsa est, eius perspiciatis at quae illum molestiae qui quam sunt sed quisquam alias enim eveniet? Praesentium, blanditiis.
