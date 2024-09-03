@@ -6,9 +6,9 @@ const Carru = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const images = [
-    '/public/images/img1.jpeg',
-    '/public/images/img2.jpeg',
-    '/public/images/img1.jpeg',
+    './images/img1.jpeg',
+    './images/img2.jpeg',
+    './images/img1.jpeg',
 
   ];
 
