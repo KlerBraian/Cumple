@@ -1,11 +1,11 @@
 import React from 'react'
-import Carrusel from './carrusel'
 import Game from './Game'
 import Poema from './Poema'
+import Carrusel from './carrusel'
 
 const Inicio = () => {
   return (<>
-    <Carrusel/>
+   <Carrusel/>
     <Game/>
     <Poema/>
     </>
