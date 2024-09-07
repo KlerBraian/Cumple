@@ -184,6 +184,7 @@ const Game = () => {
           <p className='respuestas'>Tu respuesta es {result[question.id]?.isCorrect ? 'correcta' : 'incorrecta'}</p>
         </div>
       ))}
+      <p><strong>Felicidades por jugar, puede elegir un beso de nuestro adorable Kler, o lo que hay en esta caja ???</strong> </p>
     </div>
   );
 

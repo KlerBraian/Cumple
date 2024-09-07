@@ -8,8 +8,10 @@ const Carru = () => {
   const images = [
     './images/img1.jpeg',
     './images/img2.jpeg',
-    './images/img1.jpeg',
-
+    './images/img3.jpg',
+    './images/img4.jpg',
+    './images/img5.jpg',
+    './images/img6.jpg',
   ];
 
   useEffect(() => {
