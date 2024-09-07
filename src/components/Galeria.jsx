@@ -29,7 +29,7 @@ function App() {
 
     return (
         <div className="App">
-            <h2>Agregar imagen:</h2>
+            <h2>Aca vas a poder subir las fotos que nos saquemos: </h2>
             <input type="file" accept="image/*" onChange={handleChange} />
             <div className="image-gallery">
                 {files.map((file, index) => (

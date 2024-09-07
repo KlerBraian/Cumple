@@ -155,7 +155,7 @@ const Game = () => {
   const renderQuiz = () => (
     <div>
       <h2>{questions[currentQuestionIndex].question}</h2>
-      <div>
+      <div className='game-options'>
         {questions[currentQuestionIndex].options.map((option, index) => (
           <label key={index}>
             <input
@@ -169,7 +169,7 @@ const Game = () => {
           </label>
         ))}
       </div>
-      <button onClick={handleNextQuestion}>Siguiente</button>
+      <button className='button-game' onClick={handleNextQuestion}>Siguiente</button>
     </div>
   );
 
@@ -179,9 +179,9 @@ const Game = () => {
       {questions.map((question, index) => (
         <div key={index}>
           <h4>{question.question}</h4>
-          <p>Respuesta seleccionada: {result[question.id]?.selectedAnswer}</p>
-          <p>Respuesta correcta: {result[question.id]?.correctAnswer}</p>
-          <p>Tu respuesta es {result[question.id]?.isCorrect ? 'correcta' : 'incorrecta'}</p>
+          <p className='respuestas'>Respuesta seleccionada: {result[question.id]?.selectedAnswer}</p>
+          <p className='respuestas'>Respuesta correcta: {result[question.id]?.correctAnswer}</p>
+          <p className='respuestas'>Tu respuesta es {result[question.id]?.isCorrect ? 'correcta' : 'incorrecta'}</p>
         </div>
       ))}
     </div>
@@ -189,7 +189,7 @@ const Game = () => {
 
   return (
     <div className='game'>
-        <h2>Ahora te toca jugar un juego</h2>
+        <h2 className='juego'>Ahora te toca jugar un juego</h2>
       {isQuizCompleted ? renderResults() : renderQuiz()}
     </div>
   );

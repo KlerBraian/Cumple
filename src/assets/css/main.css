@@ -14,18 +14,22 @@
     justify-content: center;
     gap: 1rem;
     list-style: none;
+    margin-top: 2rem;
   
 }
  
 .navItem {
-  color : #fff;
+  font-family: 'Dancing Script', cursive;
+  color : yellow;
   text-decoration: none;
   
 }
 
 
 .titulo {
-  color: #fff;
+  color: yellow;
+  font-family: 'Dancing Script', cursive;
+
     text-align: center;
     margin-bottom: 0 !important;
 }
@@ -58,7 +62,9 @@
   background-color: #ffe573;
     padding: 2rem;
  }
-
+ .juego{
+  font-family: 'Dancing Script', cursive;
+ }
 
  .poema {
   background-color: #ffe573;
@@ -143,4 +149,31 @@
     width: 100%;
     max-width: 600px;
     height: auto;
+  }
+
+  .poema-content {
+    font-family: 'Dancing Script', cursive;
+  }
+  .titulo-poema{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .respuestas{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .button-game {
+    margin-top: 1rem;
+    color: yellow;
+    background-color: blue;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+  }
+  .game-options {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .image-gallery{
+    min-height:55vh;
   }
